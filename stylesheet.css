@@ -1,0 +1,44 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.section {
+  text-align: center;
+  white-space: nowrap;
+  background: rgb(3,169,244);
+}
+
+.section:nth-child(2) {
+    background: rgb(255,87,34);
+  }
+
+.section:nth-child(3) {
+    background: rgb(0,150,136);
+  }
+
+.section:nth-child(4) {
+    background: rgb(244,67,54);
+  }
+.section:nth-child(4):before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+  }
+
+h1 {
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+  }
+}
+
+#myMenu{
+  position: absolute;
+    left: 0px;
+    top: 0px;
+  z-index: 1;
+}
